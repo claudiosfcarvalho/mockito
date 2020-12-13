@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,9 +14,15 @@ public class StringHelperTest {
 	
 	@Before
 	public void before() {
+		System.out.println("Before ok");
 		if (null == sh) {
 		 sh = new StringHelper();
 		}
+	}
+	
+	@After
+	public void after() {
+		System.out.println("After ok");
 	}
 	
 	@Test
