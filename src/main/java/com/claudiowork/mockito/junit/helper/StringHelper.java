@@ -1,4 +1,4 @@
-package com.claudiowork.mockito;
+package com.claudiowork.mockito.junit.helper;
 
 public class StringHelper {
 

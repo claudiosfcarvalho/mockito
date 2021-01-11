@@ -24,12 +24,12 @@ public class ArraysCompareTest {
 		assertArrayEquals(expected, numbers);
 	}
 	
-	@Test(timeout = 100)
-	public void testPerformance() {
-		int[] numbers = {12,23,4,1};
-		for (int i = 1; 1 < 1000000; i++) {
-			numbers[0] = i;
-			Arrays.sort(numbers);
-		}	
-	}
+//	@Test(timeout = 100)
+//	public void testPerformance() {
+//		int[] numbers = {12,23,4,1};
+//		for (int i = 1; 1 < 1000000; i++) {
+//			numbers[0] = i;
+//			Arrays.sort(numbers);
+//		}	
+//	}
 }
